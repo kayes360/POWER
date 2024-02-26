@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="description" content={metadata.description || ''} />
-        <link rel="manifest" href={metadata.manifest || ''} />
-        <title>{metadata.title}</title>
+         
+     
         {/* Add other meta tags, link tags, etc. here */}
       </Head>
       <body className={inter.className}>{children}</body>
